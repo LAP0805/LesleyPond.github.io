@@ -1,0 +1,35 @@
+.nav-bar{
+  background-color: #ece5e5;
+  color: #755625;
+}
+.right{
+  color: #755625;
+}
+h5{
+  font-family: 'Architects Daughter', cursive;
+}
+h2, h5{
+  text-align:center;
+  margin:0px;
+  color:755625;
+  
+}
+.carousel-item{
+  height:200px;
+  width:200px
+}
+.parallax{
+height:200px;
+}
+.parallax-container{
+  height:300px;
+}
+.hello{
+  text-align:center;
+}
+.centered{
+  text-align:center;
+}
+.carousel{
+  height:300px;
+}
