@@ -5,7 +5,7 @@
 .right{
   color: #755625;
 }
-h5{
+h4, h5{
   font-family: 'Architects Daughter', cursive;
 }
 h1, h2, h5{
@@ -17,9 +17,19 @@ h1, h2, h5{
   font-family: 'Poiret One', cursive;
   font-weight:bold;
 }
+.nav-list{
+  font-size:20px!important;
+}
 .carousel-item{
   height:600px!important;
   width:600px!important;
+}
+.card-title{
+  font-size:30px!important;
+  font-weight:bold!important;
+}
+.hello{
+  font-size:18px;
 }
 .parallax{
 height:200px;
@@ -32,7 +42,21 @@ height:200px;
 }
 .centered{
   text-align:center;
+  margin:auto;
 }
 .carousel{
   height:500px;
 }
+#me{
+  max-height:400px;
+  max-width:400px;
+  border-radius:20px;
+}
+.email{
+  text-align:center;
+}
+.contacts{
+  text-decoration:none;
+}
+
+
