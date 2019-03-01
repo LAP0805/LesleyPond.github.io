@@ -51,6 +51,8 @@ height:200px;
   max-height:400px;
   max-width:400px;
   border-radius:20px;
+  float:left;
+  margin:40px;
 }
 .email{
   text-align:center;
@@ -59,4 +61,48 @@ height:200px;
   text-decoration:none;
 }
 
+@media screen and (max-width:1025px){
+  .carousel-item{
+    max-height:400px;
+    max-width:400px;
+  }
+}
 
+@media screen and (max-width:700px){
+  .email{
+    font-size:20px;
+  }
+  .carousel{
+    height:400px;
+    padding:0px;
+  }
+  .carousel-item{
+  max-height:250px;
+  max-width:250px;
+  }
+}
+@media screen and (max-width:700px){
+  .email{
+    font-size:18px;
+  }
+}
+@media screen and (max-width:600px){
+  .fab{
+    margin:0px 0px 0px 220px;
+  }
+  .fas{
+    margin:0px 0px 0px 230px;
+  }
+ }
+
+@media screen and (max-width:575px){
+ #me{
+   margin:50px 20px 20px 30px;
+ }
+}
+
+@media screen and (max-width:450px){
+  #me{
+    margin:50px 20px 20px 0px;
+  }
+ }
