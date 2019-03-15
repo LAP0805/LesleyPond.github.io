@@ -66,6 +66,7 @@ footer{
   font-family: 'Architects Daughter', cursive;
 }
 
+
 @media screen and (max-width:1025px){
   .carousel-item{
     max-height:400px;
